@@ -1,0 +1,363 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_application_1"
+4    android:versionCode="2"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-13:15
+12        <intent>
+12-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:18
+13            <action android:name="android.support.customtabs.action.CustomTabsService" />
+13-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-90
+13-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:21-87
+14        </intent>
+15    </queries>
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[:google_sign_in_android] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\google_sign_in_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-67
+17-->[:google_sign_in_android] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\google_sign_in_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
+18-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:22-76
+19
+20    <application
+21        android:name="android.app.Application"
+21-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:5:9-42
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.8.0] C:\Users\adira\.gradle\caches\transforms-3\36645dad4856a45a63618a9e4f104845\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:6:9-43
+24        android:label="Mental Health Tracker" >
+24-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:4:9-46
+25        <activity
+25-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:7:9-27:20
+26            android:name="com.example.flutter_application_1.MainActivity"
+26-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:8:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:12:13-163
+28            android:exported="true"
+28-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:9:13-36
+29            android:hardwareAccelerated="true"
+29-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:13:13-47
+30            android:launchMode="singleTop"
+30-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:10:13-43
+31            android:theme="@style/LaunchTheme"
+31-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:11:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:14:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:19:13-22:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:20:15-70
+42                android:resource="@style/NormalTheme" />
+42-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:21:15-52
+43
+44            <intent-filter>
+44-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:23:13-26:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:24:17-68
+45-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:24:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:25:17-76
+47-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:25:27-74
+48            </intent-filter>
+49        </activity>
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:30:9-32:33
+55            android:name="flutterEmbedding"
+55-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:31:13-44
+56            android:value="2" />
+56-->C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\android\app\src\main\AndroidManifest.xml:32:13-30
+57
+58        <service
+58-->[:firebase_auth] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[:firebase_auth] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.3.2] C:\Users\adira\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:68:13-37
+62            <meta-data
+62-->[:firebase_auth] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+63-->[:firebase_auth] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[:firebase_auth] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+65            <meta-data
+65-->[:cloud_firestore] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+66-->[:cloud_firestore] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[:cloud_firestore] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+68            <meta-data
+68-->[:firebase_core] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+69-->[:firebase_core] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:firebase_core] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+72                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+72-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\adira\.gradle\caches\transforms-3\ec3138adb9fecd309911a980fe7066c1\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+75                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+75-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\adira\.gradle\caches\transforms-3\ec3138adb9fecd309911a980fe7066c1\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\adira\.gradle\caches\transforms-3\ec3138adb9fecd309911a980fe7066c1\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+77        </service>
+78
+79        <activity
+79-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-20:47
+80            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+80-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-104
+81            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+81-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-137
+82            android:exported="false"
+82-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-37
+83            android:theme="@style/AppTheme" />
+83-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-44
+84        <activity
+84-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-24:55
+85            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+85-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-112
+86            android:exported="false"
+86-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
+87            android:theme="@style/ThemeTransparent" />
+87-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-52
+88        <activity
+88-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-28:55
+89            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+89-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-106
+90            android:exported="false"
+90-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-37
+91            android:theme="@style/ThemeTransparent" />
+91-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-52
+92        <activity
+92-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-33:55
+93            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+93-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-126
+94            android:exported="false"
+94-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-37
+95            android:launchMode="singleInstance"
+95-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-48
+96            android:theme="@style/ThemeTransparent" />
+96-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-52
+97        <activity
+97-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-38:55
+98            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+98-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-120
+99            android:exported="false"
+99-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-37
+100            android:launchMode="singleInstance"
+100-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-48
+101            android:theme="@style/ThemeTransparent" />
+101-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-52
+102
+103        <receiver
+103-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:40
+104            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+104-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-111
+105            android:enabled="true"
+105-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-35
+106            android:exported="false" />
+106-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-37
+107
+108        <meta-data
+108-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:36
+109            android:name="io.flutter.embedded_views_preview"
+109-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-61
+110            android:value="true" />
+110-->[:flutter_inappwebview] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-33
+111
+112        <activity
+112-->[:url_launcher_android] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+113            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+113-->[:url_launcher_android] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+114            android:exported="false"
+114-->[:url_launcher_android] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+115            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+115-->[:url_launcher_android] C:\Users\adira\OneDrive\Documents\Flutter\Project 1\flutter_application_1\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+116        <activity
+116-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+117            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+117-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+118            android:excludeFromRecents="true"
+118-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+119            android:exported="true"
+119-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+120            android:launchMode="singleTask"
+120-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+121-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+122            <intent-filter>
+122-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+123                <action android:name="android.intent.action.VIEW" />
+123-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+123-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+125-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+126                <category android:name="android.intent.category.BROWSABLE" />
+126-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+126-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+127
+128                <data
+128-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+129                    android:host="firebase.auth"
+129-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+130                    android:path="/"
+130-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+131                    android:scheme="genericidp" />
+131-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+132            </intent-filter>
+133        </activity>
+134        <activity
+134-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+135            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+135-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+136            android:excludeFromRecents="true"
+136-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+137            android:exported="true"
+137-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+138            android:launchMode="singleTask"
+138-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+139-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+140            <intent-filter>
+140-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+141                <action android:name="android.intent.action.VIEW" />
+141-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+141-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+143-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+144                <category android:name="android.intent.category.BROWSABLE" />
+144-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+144-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+145
+146                <data
+146-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+147                    android:host="firebase.auth"
+147-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+148                    android:path="/"
+148-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+149                    android:scheme="recaptcha" />
+149-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\adira\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+150            </intent-filter>
+151        </activity>
+152
+153        <uses-library
+153-->[androidx.window:window:1.0.0-beta04] C:\Users\adira\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+154            android:name="androidx.window.extensions"
+154-->[androidx.window:window:1.0.0-beta04] C:\Users\adira\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+155            android:required="false" />
+155-->[androidx.window:window:1.0.0-beta04] C:\Users\adira\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+156        <uses-library
+156-->[androidx.window:window:1.0.0-beta04] C:\Users\adira\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+157            android:name="androidx.window.sidecar"
+157-->[androidx.window:window:1.0.0-beta04] C:\Users\adira\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+158            android:required="false" />
+158-->[androidx.window:window:1.0.0-beta04] C:\Users\adira\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+159
+160        <activity
+160-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
+161            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+161-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:24:13-93
+162            android:excludeFromRecents="true"
+162-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:25:13-46
+163            android:exported="false"
+163-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:26:13-37
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+164-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:27:13-72
+165        <!--
+166            Service handling Google Sign-In user revocation. For apps that do not integrate with
+167            Google Sign-In, this service will never be started.
+168        -->
+169        <service
+169-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:33:9-37:51
+170            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+170-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+171            android:exported="true"
+171-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:35:13-36
+172            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+172-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
+173            android:visibleToInstantApps="true" />
+173-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\adira\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:37:13-48
+174
+175        <activity
+175-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\adira\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\adira\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\adira\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\adira\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+179
+180        <provider
+180-->[com.google.firebase:firebase-common:20.3.2] C:\Users\adira\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+181            android:name="com.google.firebase.provider.FirebaseInitProvider"
+181-->[com.google.firebase:firebase-common:20.3.2] C:\Users\adira\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+182            android:authorities="com.example.flutter_application_1.firebaseinitprovider"
+182-->[com.google.firebase:firebase-common:20.3.2] C:\Users\adira\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+183            android:directBootAware="true"
+183-->[com.google.firebase:firebase-common:20.3.2] C:\Users\adira\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+184            android:exported="false"
+184-->[com.google.firebase:firebase-common:20.3.2] C:\Users\adira\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+185            android:initOrder="100" />
+185-->[com.google.firebase:firebase-common:20.3.2] C:\Users\adira\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+186
+187        <meta-data
+187-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\adira\.gradle\caches\transforms-3\c32180eb77f1d8ab3c20810eb5f11a42\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+188            android:name="com.google.android.gms.version"
+188-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\adira\.gradle\caches\transforms-3\c32180eb77f1d8ab3c20810eb5f11a42\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+189            android:value="@integer/google_play_services_version" />
+189-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\adira\.gradle\caches\transforms-3\c32180eb77f1d8ab3c20810eb5f11a42\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+190
+191        <provider
+191-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adira\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+192            android:name="androidx.startup.InitializationProvider"
+192-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adira\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+193            android:authorities="com.example.flutter_application_1.androidx-startup"
+193-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adira\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+194            android:exported="false" >
+194-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adira\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+195            <meta-data
+195-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adira\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+196                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+196-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adira\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+197                android:value="androidx.startup" />
+197-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adira\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+198            <meta-data
+198-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\adira\.gradle\caches\transforms-3\2eb99e815d7dc032f413e9ec75daf1ba\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+199                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+199-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\adira\.gradle\caches\transforms-3\2eb99e815d7dc032f413e9ec75daf1ba\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+200                android:value="androidx.startup" />
+200-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\adira\.gradle\caches\transforms-3\2eb99e815d7dc032f413e9ec75daf1ba\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+201        </provider>
+202    </application>
+203
+204</manifest>
